@@ -1,0 +1,186 @@
+{
+  "company" : {
+    "name" : "TechCorp",
+    "departments" : [ {
+      "name" : "Engineering",
+      "employees" : [ {
+        "id" : 1,
+        "name" : "Alice",
+        "skills" : [ "Java", "Spring", "Hibernate" ],
+        "contacts" : {
+          "email" : "alice@techcorp.com",
+          "phones" : [ "+123456789", "+987654321" ]
+        },
+        "projects" : [ {
+          "id" : 101,
+          "name" : "Backend API",
+          "status" : "active"
+        }, {
+          "id" : 102,
+          "name" : "Microservices",
+          "status" : "completed"
+        } ]
+      }, {
+        "id" : 2,
+        "name" : "Bob",
+        "skills" : [ "JavaScript", "React", "Node.js" ],
+        "contacts" : {
+          "email" : "bob@techcorp.com",
+          "phones" : [ "+1122334455" ]
+        },
+        "projects" : [ {
+          "id" : 103,
+          "name" : "Frontend App",
+          "status" : "active"
+        }, {
+          "id" : 104,
+          "name" : "UI/UX Redesign",
+          "status" : "planned"
+        } ]
+      } ],
+      "budgetDetails" : {
+        "annualBudget" : 500000,
+        "spentBudget" : 320000,
+        "remainingBudget" : 180000
+      }
+    }, {
+      "name" : "Marketing",
+      "employees" : [ {
+        "id" : 3,
+        "name" : "Diana",
+        "skills" : [ "SEO", "Content Marketing" ],
+        "contacts" : {
+          "email" : "diana@techcorp.com",
+          "phones" : [ "+9988776655" ]
+        },
+        "campaignsManaged" : [ {
+          "id" : 201,
+          "title" : "#GrowWithUs",
+          "reachMetrics" : {
+            "views" : 50000,
+            "clicks" : 1200
+          }
+        }, {
+          "id" : 202,
+          "title" : "#TechRevolution",
+          "reachMetrics" : {
+            "views" : 75000,
+            "clicks" : 2500
+          }
+        } ]
+      } ],
+      "budgetDetails" : {
+        "annualBudget" : 200000,
+        "spentBudget" : 120000,
+        "remainingBudget" : 80000
+      }
+    } ],
+    "offices" : [ {
+      "location" : "New York",
+      "address" : {
+        "street" : "123 Tech Street",
+        "city" : "New York",
+        "state" : "NY",
+        "zip" : "10001"
+      },
+      "capacity" : {
+        "totalSeats" : [ 200 ],
+        "occupiedSeats" : [ 150 ]
+      }
+    }, {
+      "location" : "San Francisco",
+      "address" : {
+        "street" : "456 Innovation Blvd",
+        "city" : "San Francisco",
+        "state" : "CA",
+        "zip" : "94107"
+      },
+      "capacity" : {
+        "totalSeats" : [ 150 ],
+        "occupiedSeats" : [ 120 ]
+      }
+    } ],
+    "products" : [ {
+      "productId" : [ 501 ],
+      "productName" : [ "SuperWidget" ],
+      "categories" : [ "Widgets", "Tools", "Gadgets" ],
+      "priceDetails" : {
+        "basePrice" : [ 99.99 ],
+        "discounts" : [ {
+          "type" : "seasonal",
+          "amount" : [ 10.0 ]
+        } ],
+        "finalPrice" : [ 89.99 ]
+      },
+      "availability" : {
+        "onlineStock" : [ 500 ],
+        "storeStock" : [ 150 ]
+      }
+    }, {
+      "productId" : [ 502 ],
+      "productName" : [ "MegaGadget" ],
+      "categories" : [ "Gadgets", "Electronics" ],
+      "priceDetails" : {
+        "basePrice" : [ 199.99 ],
+        "discounts" : [ {
+          "type" : "clearance",
+          "amount" : [ 20.0 ]
+        } ],
+        "finalPrice" : [ 179.99 ]
+      },
+      "availability" : {
+        "onlineStock" : [ 300 ],
+        "storeStock" : [ 80 ]
+      }
+    } ],
+    "financialReport2025Q1" : {
+      "revenueStreams" : {
+        "onlineSales" : [ 1200000 ],
+        "retailSales" : [ 800000 ],
+        "subscriptionsAndServices" : [ 400000 ]
+      },
+      "expensesBreakdown" : {
+        "salaryExpenses" : [ 700000 ],
+        "marketingExpenses" : [ 200000 ],
+        "infrastructureExpenses" : [ 150000 ],
+        "miscellaneousExpenses" : [ 50000 ]
+      },
+      "netProfitQuarterly" : [ 650000 ]
+    },
+    "partnersAndSuppliers" : [ {
+      "partnerId" : [ 901 ],
+      "partnerName" : [ "SupplyCo Ltd." ],
+      "servicesProvided" : [ "Raw Materials", "Logistics" ],
+      "contractDetails" : {
+        "startDate" : [ "2024-01-01" ],
+        "endDate" : [ "2026-12-31" ],
+        "contractValue" : [ 1000000 ]
+      }
+    }, {
+      "partnerId" : [ 902 ],
+      "partnerName" : [ "TechSolutions Inc." ],
+      "servicesProvided" : [ "IT Support", "Cloud Hosting" ],
+      "contractDetails" : {
+        "startDate" : [ "2023-06-01" ],
+        "endDate" : [ "2025-05-31" ],
+        "contractValue" : [ 750000 ]
+      }
+    } ],
+    "auditLog" : [ {
+      "eventId" : [ 1001 ],
+      "eventType" : [ "LOGIN" ],
+      "timestamp" : [ "2025-03-15T08:30:00Z" ],
+      "userId" : [ 1 ]
+    }, {
+      "eventId" : [ 1002 ],
+      "eventType" : [ "DATA_EXPORT" ],
+      "timestamp" : [ "2025-03-15T09:45:00Z" ],
+      "userId" : [ 2 ]
+    }, {
+      "eventId" : [ 1003 ],
+      "eventType" : [ "PASSWORD_CHANGE" ],
+      "timestamp" : [ "2025-03-16T11:20:00Z" ],
+      "userId" : [ 3 ]
+    } ]
+  }
+}

@@ -1,0 +1,61 @@
+[main] INFO org.example.service.JsonService - Sending POST request to URL: https://example.com/api
+[main] INFO org.example.service.JsonService - Request JSON: {
+  "users" : [ {
+    "id" : 1,
+    "name" : "User1",
+    "email" : "user1@example.com",
+    "active" : true,
+    "additionalInfo" : {
+      "position" : "Developer",
+      "department" : "Engineering"
+    }
+  }, {
+    "id" : 2,
+    "name" : "User2",
+    "email" : "user2@example.com",
+    "active" : false,
+    "additionalInfo" : {
+      "position" : "Tester",
+      "department" : "QA"
+    }
+  }, {
+    "id" : 3,
+    "name" : "User3",
+    "email" : "user3@example.com",
+    "active" : true,
+    "additionalInfo" : {
+      "position" : "Manager",
+      "department" : "Product"
+    }
+  } ],
+  "settings" : {
+    "theme" : "dark",
+    "notifications" : true,
+    "language" : "en-US"
+  },
+  "metadata" : {
+    "createdAt" : "2025-03-22T18:31:00",
+    "version" : "1.0.0"
+  }
+}
+[main] INFO org.example.service.JsonService - Received response from server. Status code: 200
+[main] INFO org.example.service.JsonService - Response JSON: {
+    "status": "success",
+    "data": {
+        "timestamp": "2025-03-22T18:35:00",
+        "details": {
+            "processedRecords": 25,
+            "errors": 0
+        }
+    },
+    "message": "Request processed successfully",
+    "server": {
+        "id": "server-01",
+        "location": "us-east-1"
+    }
+}
+
+
+Полученные значения статуса и времени: status=success, timestamp=2025-03-22T18:35:00
+
+Process finished with exit code 0
